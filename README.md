@@ -3,7 +3,7 @@
 
 To compile on the flip server use the command below
 
-g++ -std=c++11 prog_assign_3.cpp -o ["your executable name"]
+g++ -std=c++11 prog_assign_3.cpp -o [your executable name]
 
 results will be output to results.txt, preprocessed_train.txt and preprocessed_test.txt
 will contain featurized versions of the respective data.
