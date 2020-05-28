@@ -217,6 +217,8 @@ int main()
     output_featurized_vector(outfile, pre_processed_test, vocab);
     outfile.close();
 
-    std::cout << "Training accuracy: " << percent_correct_train * 100 << "%\n";
-    std::cout << "Testing accuracy " << percent_correct_test * 100 << "%\n";
+    outfile.open("results.txt");
+    outfile << "Training accuracy: " << percent_correct_train * 100 << "% -- trained on trainingSet.txt, tested on trainingSet.txt\n";
+
+    outfile << "Testing accuracy: " << percent_correct_test * 100 << "% -- trained on trainingSet.txt, tested on testSet.txt\n";
 }

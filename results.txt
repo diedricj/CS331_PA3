@@ -1,0 +1,2 @@
+Training accuracy: 95.7916% -- trained on trainingSet.txt, tested on trainingSet.txt
+Testing accuracy: 79.6781% -- trained on trainingSet.txt, tested on testSet.txt
