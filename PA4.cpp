@@ -8,6 +8,7 @@
 #include <sstream>
 #include <algorithm>
 #include <math.h>
+#include <iterator>
 
 
 struct x {
